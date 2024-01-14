@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+  <head>
+
+    <!--METADATA-->
+
+    <title>| Add a TMS URL to produce a base layer</title>
+
+    <meta charset="UTF-8"/>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="keywords" content=""/>
+
+    <meta name=""/>
+
+    <meta name="author" content="Spencer Sincich"/>
+
+    <!--FAVICON-->
+
+    <link rel="icon" href="images/favicon.png">
+
+    <!--CSS STYLESHEET LINK-->
+
+    <link rel="stylesheet" href="css/styles.css">
+
+  </head>
+
+  <body>
+
+<!--HEADER-->
+
+    <header>
+
+      <a href="index.html">
+
+        Spencer S. - Technical Writer
+
+      </a>
+
+    </header>
+
+          <section class="breadcrumbsAndSearch">
+
+        <span class="breadcrumbsParagraph"><a href="index.html">Home</a> > <a href="index.html#research">Research & integrate terms</a></span>
+
+        <span class="searchSpan">
+      
+        <form class="searchBoxAndButton" action="#">
+                      
+          <input type="text" placeholder="Search.." name="search">
+
+        </form>
+
+      </span>
+
+      </section>
+
+
+      <!--ASIDE FOR ARTICLES IN SECTION -->
+
+      <aside class="articlesInSection">
+
+        <p>Articles in section</p>
+
+          <div class="asideItemOff"><a href="importakmlfile.html">Import a KML file containing a polygon of a region (country, state, city, ZIP code, etc.)</a></div>
+
+          <div class="asideItemOn"><a href="">Add a TMS URL to produce a base layer</a></div>
+
+      </aside>
+
+    </div>
+
+
+<!--ARTICLE CONTAINER-->
+
+<div class="articleContainer">
+
+<div class="articleTitle">Add a TMS URL to produce a base layer</div>
+
+      <article class="instructionsArticle">
+
+        <h2>Description</h2>
+        <div>
+          <strong>TMS</strong> stands for <strong>Tile Map Service</strong>, a specification
+          for tiled web maps.&nbsp;
+        </div>
+        <div class="shortenedHeight">&nbsp;</div>
+        <div>
+          <strong>Adding a TMS URL</strong> enables you to import the georeferenced tiles
+          to produce a base layer on a map.&nbsp;
+        </div>
+        <blockquote>
+          A TMS URL will have {X},{Y}, and {Z} in the URL.
+          <div class="shortenedHeight">&nbsp;</div>
+          Every provider has their own format. This is a common format: 
+          <div style="word-break: break-word;">https://www.websiteprovider/tiletype/{X}/{Y}/{Z}</div>
+        </blockquote>
+        <h2>Import the tiles</h2>
+        <ol>
+          <li>
+            If you aren't logged into Example.com, log into your account at:
+            <div class="tabLeft">
+              <a href="https://www.example.com/create" target="_blank" rel="noopener noreferrer">https://www.example.com/create</a>&nbsp;
+            </div>
+          </li>
+          <li>
+            (Optional) If the "LAYERS" Panel isn't open on the right-side of the browser
+            window, click the <strong>vertical bar</strong>.&nbsp;
+          </li>
+          <li>
+            At the bottom of the <strong>Layers Panel</strong>, open the
+            <strong>Base Layers</strong> window by clicking the
+            <strong>double-arrowheads</strong>.
+          </li>
+          <li>
+            Click the (<strong>+</strong>) button.
+          </li>
+          <li>
+            In the flyout, click: "<strong>Add TMS</strong>".
+            <div class="tabLeft">You will see the editor window titled: "ADD/EDIT TMS"</div>
+          </li>
+          <li>
+            Copy the URL.
+            <div class="tabLeft">
+              For example, this URL:<br>
+              <pre>https://services.arcgisonline.com/ArcGIS/rest/services/Demographics/USA_Population_Density/MapServer/tile/{Z}/{Y}/{X}</pre>
+            </div>
+            <blockquote>
+              <div class="beforeOLUL">
+                <strong>Copy</strong> by highlighting the URL. Then use your keyboard
+                to press:
+              </div>
+              <ul>
+                <li>Ctrl + C (for Windows).</li>
+                <li>Command + C (for Macs).</li>
+              </ul>
+              <div class="negativeHeight">&nbsp;</div>
+              <div class="negativeHeight">&nbsp;</div>
+            </blockquote>
+          </li>
+          <li>
+            Paste the URL in the "ADD/EDIT TMS" window.
+            <blockquote>
+              <div class="beforeOLUL">
+                <strong>Paste</strong> by clicking the field under the heading: "TMS
+                URL XYZ". Then use your keyboard to press:
+              </div>
+              <ul>
+                <li>Ctrl + V (for Windows).</li>
+                <li>Command + V (for Macs).</li>
+              </ul>
+              <div class="negativeHeight">&nbsp;</div>
+              <div class="negativeHeight">&nbsp;</div>
+            </blockquote>
+          </li>
+          <li>You will see the tiled map in the preview window.</li>
+          <li>
+            (Optional) Under the heading, "Layer Name", type the name into the field.
+            For example: "Test".
+            <blockquote>
+              <em>Note</em>: In later steps, the TMS name will appear on the base layer's
+              row in the Base Layers window.
+            </blockquote>
+          </li>
+          <li>
+            Click the button: "<strong>ADD TMS LAYER</strong>".
+          </li>
+          <li>
+            Click "<strong>Ok</strong>".
+            <div class="shortenedHeight">&nbsp;</div>
+            In the top-right corner of the TMS window, click the "<strong>X</strong>"
+            button.
+            <div class="tabLeft">In the Map View, you will see the added TMS base layer.</div>
+          </li>
+          <li>
+            (Optional) You can toggle the visibility of the TMS base layer.
+            <div class="tabLeft">
+              In the Base Layers window, click the <strong>Eye Icon</strong> located
+              on the left-side of the <strong>base layer's row</strong>.
+            </div>
+          </li>
+        </ol>
+        <div>&nbsp;</div>
+        <div>&nbsp;</div>
+      
+      </article>
+    </div>
+
+
+<!--FOOTER WITH TWO PARTS - TOP AND BOTTOM-->
+
+    <footer class="underfloat">
+
+<!--TOP FOOTER-->
+
+      <div class="topFooter">
+
+    
+<div class="footerText">
+
+  <a class="footerText" href="">Return to top</a>
+
+  <a style="float: right; height: 30px;" href="contact.html">Contact</a>
+
+</div>
+
+      </div>
+
+<!--BOTTOM FOOTER-->
+
+            <div class="bottomFooter">
+
+    
+
+<div class="footerText"><a href="index.html">Home</a></div>
+
+      </div>
+
+
+    </footer>
+
+  </body>
+
+</html>
